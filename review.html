@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review - TOKO COOKIES</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="page-heading">
+    <p class="small-title">HAPPY CUSTOMERS ♡</p>
+    <h1>Customer <span>Reviews</span></h1>
+    <p>Cerita manis dari pelanggan kami.</p>
+</section>
+
+<section class="review-container" id="review-list">
+
+    <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <h3>Sarah</h3>
+        <p>"Cookies-nya enak banget, teksturnya lembut dan rasanya pas!"</p>
+    </div>
+
+    <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <h3>Nadia</h3>
+        <p>"Packaging lucu dan cookies-nya fresh. Recommended!"</p>
+    </div>
+
+    <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <h3>Putri</h3>
+        <p>"Suka banget sama rasa cokelatnya. Pasti beli lagi!"</p>
+    </div>
+
+</section>
+
+<section class="review-form">
+    <h2>Write Your Review ♡</h2>
+
+    <form onsubmit="addReview(event)">
+        <input type="text" id="review-name" placeholder="Nama kamu" required>
+
+        <select id="review-rating">
+            <option value="5">★★★★★</option>
+            <option value="4">★★★★</option>
+            <option value="3">★★★</option>
+            <option value="2">★★</option>
+            <option value="1">★</option>
+        </select>
+
+        <textarea id="review-message" placeholder="Tulis pengalaman kamu..." required></textarea>
+
+        <button type="submit">Send Review</button>
+    </form>
+</section>
+
+<div class="back-area">
+    <button class="back-btn" onclick="history.back()">← Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

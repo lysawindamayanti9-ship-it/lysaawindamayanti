@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOKO COOKIES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HALAMAN PEMBUKA -->
+<section id="intro-screen">
+
+    <div class="hearts">
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+    </div>
+
+    <div class="intro-content">
+
+        <div class="envelope" id="envelope" onclick="openInvitation()">
+
+            <div class="envelope-back"></div>
+
+            <div class="envelope-paper">
+                <span>♡</span>
+                <h2>Welcome!</h2>
+                <p>Sweet moments await you</p>
+            </div>
+
+            <div class="envelope-front"></div>
+
+            <div class="envelope-flap"></div>
+
+            <div class="envelope-seal">🍪</div>
+
+        </div>
+
+        <p class="intro-text">
+            Ketuk amplop untuk membuka<br>
+            kejutan manis dari kami... ♡
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- WEBSITE UTAMA -->
+<div id="main-site">
+
+    <header>
+        <a href="home.html" target="konten" class="logo">
+            Crumbelle<span>♡</span>
+        </a>
+
+        <nav>
+            <a href="home.html" target="konten">Home</a>
+            <a href="about.html" target="konten">About</a>
+            <a href="product.html" target="konten">Product</a>
+            <a href="review.html" target="konten">Review</a>
+            <a href="branches.html" target="konten">Branches</a>
+            <a href="contact.html" target="konten">Contact</a>
+        </nav>
+
+        <a href="product.html" target="konten" class="cart">
+            🛒 <span id="cart-count">0</span>
+        </a>
+    </header>
+
+    <iframe src="home.html" name="konten" title="Konten Toko Cookies"></iframe>
+
+    <footer>
+        <p>© 2026 TOKO COOKIES. All Rights Reserved. ♡</p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
